@@ -29,22 +29,24 @@
 }
 
 .register {
-  display:flex;
+  display: flex;
   flex-direction: column;
   max-width: 100%;
   gap: 10px;
-  justify-content: center;
   align-items: flex-start;
+  margin: 20px;
 }
 
 input {
-  width:15%;
+  width: 15%;
+  padding: 5px;
 }
 
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
