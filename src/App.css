@@ -31,14 +31,16 @@
 .register {
   display: flex;
   flex-direction: column;
-  max-width: 100%;
+  width: 300px;
   gap: 10px;
   align-items: flex-start;
   margin: 20px;
+  padding:20px;
+  border: 2px solid black;
 }
 
 input {
-  width: 15%;
+  width: 80%;
   padding: 5px;
 }
 
